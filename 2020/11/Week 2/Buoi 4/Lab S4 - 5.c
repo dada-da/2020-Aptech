@@ -3,15 +3,16 @@ int main(){
 	int n;
 	printf("Nhap so n =");
 	scanf("%d", &n);
-	int i = 1;
+
 	int b = 0;
 
-	for(i = 1; i <= n && n % i == 0 ; i++){
+	for(i = 2; i <= n/2; i++){
 		if(n % i == 0){
 			b++;
+			break;
 		}
 	}
-	if(b <= 2){
+	if(b == 0 && n > 1){
 		printf("Day la so nguyen to");
 	}else{
 		printf("Day khong phai la so nguyen to");

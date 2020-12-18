@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main(){
-	int i = 1;
-	for(i = 1; i < 100; i += 2){
-		i += i;
+	int a = 0;
+
+	for(int i = 0, j = 0; i < 100; j++){
+		if(j % 2 != 0){
+			a += j;
+			i ++;
+		}
 	}
-	printf("Tong so le = %d", i);
+	printf("Tong so le = %d", a);
 }
