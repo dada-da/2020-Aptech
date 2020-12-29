@@ -21,3 +21,37 @@
     height: 300px;
     padding: 50px 100px;
 }
+.textleft{
+    padding-left: 80px;
+}
+.Subject{
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+
+.icon{
+    float: left;
+    margin: 27px 24px -15px 80px;
+    padding-right: 120px;
+}
+
+.texticon{
+    float: left;
+    font-size: 30px;
+    margin-left: -123px;
+    margin-bottom: -15px;
+}
+
+.contact{
+
+
+}
+
+.texttop{
+    padding-top: 100px;
+}
+#education{
+    padding-top: 221px;
+    font-size: 50px;
+    margin-left: 80px;
+}
