@@ -1,0 +1,23 @@
+.page{
+    background-color: whitesmoke;
+    width: 2480px;
+    height: 3508px;
+}
+.top{
+    background-color: lightslategrey;
+    width: 2480px;
+    height: 350px;
+    padding-left: 700px;
+}
+.left{
+    background-color: gainsboro;
+    width: 500px;
+    height: 3400px;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    padding: 50px 100px;
+}
