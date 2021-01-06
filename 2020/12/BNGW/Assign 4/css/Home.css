@@ -1,4 +1,208 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    background-color: #eeeeee;
+    height: 1100px;
+}
+body{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
     font-family: 'Lato', sans-serif;
+}
+
+#navibar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.title{
+    padding-left: 50px;
+}
+
+.navbutton1{
+    float: left;
+    margin-top: -30px;
+    padding-left: 800px;
+    font-weight: 700;
+}
+.navbutton2{
+    float: left;
+    margin-top: -30px;
+    padding-left: 900px;
+    font-weight: 700;
+}
+.navbutton3{
+    float: left;
+    margin-top: -30px;
+    padding-left: 1000px;
+    font-weight: 700;
+}
+.navbutton4{
+    float: left;
+    margin-top: -30px;
+    padding-left: 1110px;
+    font-weight: 700;
+}
+hr {
+    display: block;
+    height: 4px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+    padding: 0;
+}
+
+.category{
+    width: 100%;
+    height: 70px;
+    font-weight: 700;
+    background-color: white;
+}
+.navcategory1{
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.navcategory2{
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.navcategory3{
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.navcategory4{
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+#getgen{
+    float: left;
+    padding-left: 544px;
+    margin-top: 14px;
+}
+
+#topic{
+    background-color: white;
+    width: 42%;
+    height: 80%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#topic img{
+    width: 94%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+#topic h1{
+    margin-left: 60px;
+    margin-top: 20px;
 
 }
+#date{
+    width: 12%;
+    float:left;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#author{
+    float:left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#Line{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#comment{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.text{
+    float: left;
+    width: 90%;
+    word-wrap: break-word;
+    padding-left: 48px;
+    padding-top: 20px;
+}
+
+#sub{
+    float: left;
+    background-color: #333;
+    margin-top: 40px;
+    margin-left: 26px;
+    width: 16%;
+    height: 36%;
+}
+.emailnews{
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#emaildetail{
+    width: 82%;
+}
+.mailfield{
+    background-color: #fff;
+    color: grey;
+    margin-right: 29px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#button{
+    background-color: red;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 29px;
+    padding-left: 83px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#social{
+    float: left;
+    background-color: white;
+    margin-top: 473px;
+    margin-left: -305px;
+    width: 16%;
+    height: 18%;
+}
+.socialicon{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+#icon1st{
+    margin-left: 32px;
+}
+.icons{
+    float:left;
+    width: 11%;
+    height: auto;
+    margin-left: 14px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+#icon2nd{
+    margin-left: 32px;
+}
+.icons2{
+    float:left;
+    width: 11%;
+    height: auto;
+    margin-left: 14px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
