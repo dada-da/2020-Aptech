@@ -1,0 +1,21 @@
+img{
+    max-width: 100%;
+}
+div{
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 15px 10px 20px; /*chieu kim dong ho (bat dau tu TOP)*/
+    /*neu khong co, lay doi dien*/
+    margin: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 0 15px red;
+    transition: background-color,opacity 300ms;
+}
+div:hover{
+    background-color: green;
+    opacity: 1;
+}
+#first{
+    background-color: orange;
+}
